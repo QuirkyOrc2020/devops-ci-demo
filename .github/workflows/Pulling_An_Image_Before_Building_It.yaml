@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v2.5.0 # Checking out the repo
 
       - name: Say Hello World
-      - run: echo "Hello World"
+      - run: |
+         echo "Hello World"
 
 
