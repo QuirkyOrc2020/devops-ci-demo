@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Hello World
-        run: |
-            echo "Hello World"
-
       - name: Checkout repo
-      - uses: actions/checkout@v2.5.0 # Checking out the repo
+        uses: actions/checkout@v2
+
+      - name: Add Hello World
+        run: |
+          echo "Hello World" # Add Hello World 
