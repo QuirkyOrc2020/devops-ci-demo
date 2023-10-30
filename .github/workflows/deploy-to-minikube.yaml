@@ -6,7 +6,7 @@ on:
     pull_request:
         branches: [ master ] # main
 jobs:
-  # Build job
+  # Build jobs
   job1:
     name: Build and Deploy to Minikube
     # Run on Ubuntu using the latest version
